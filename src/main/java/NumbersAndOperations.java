@@ -10,8 +10,11 @@ public class NumbersAndOperations {
         int numberB;
 
         // Tu código aquí
+        numberA = 23;
+        numberB = 40;
+        int result = numberA + numberB;
 
-        return 0; // Sustituye el 0 por result
+        return result; // Sustituye el 0 por result
     }
 
     /**
@@ -26,7 +29,9 @@ public class NumbersAndOperations {
 
         // Tu código aquí
 
-        return 0.0f; // sustituye 0.0f por la variable "result"
+        float result = (float)numberA / numberB;
+
+        return result; // sustituye 0.0f por la variable "result"
     }
 
     /**
@@ -37,7 +42,7 @@ public class NumbersAndOperations {
      */
     public int modulo(){
         int numberA = 1;
-        int numberB = 1;
+        int numberB = 2;
 
         // Tu código aquí
 
@@ -51,7 +56,8 @@ public class NumbersAndOperations {
      * @return No modifiques el return
      */
     public int randomizer(){
-        int randomNumber = 9999;
+        int randomNumber = (int)(Math.random() * 100) + 1;;
+
 
         // Tu código aquí
 
@@ -69,8 +75,9 @@ public class NumbersAndOperations {
         int numberB = 3;
 
         // Tu código aquí
+        int result = (int) Math.pow(numberB ,numberA);
 
-        return 0; // sustituye el 0 por la variable result
+        return result; // sustituye el 0 por la variable result
     }
 
     /**
@@ -81,7 +88,7 @@ public class NumbersAndOperations {
      * @return No modifiques el return
      */
     public long roundNumber() { // Usamos 'long' porque Math.round() devuelve long
-        double decimalNumber = 0.0;
+        double decimalNumber = 9.9;
 
         // Tu código aquí
 
@@ -100,7 +107,8 @@ public class NumbersAndOperations {
 
         // Tu código aquí
 
-        return 0; // Sustituye el 0 por finalResult
+        int finalResult = (initialValue + 5) * 13;
+        return finalResult; // Sustituye el 0 por finalResult
     }
 
     public static void main(String[] args) {
